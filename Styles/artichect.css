@@ -140,6 +140,8 @@ nav ul {
 
 .text {
     margin: 50px 146px 0 0;
+    position: relative;
+    top: 60px;
 }
 
 .extra-feature-text {
@@ -165,13 +167,13 @@ nav ul {
     font-size: 16px;
     color: var(--secondary-color);
     margin-top: 24px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 .extra-feature-list {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 50px;
+    gap: 20px;
 }
 
 .extra-feature-list-item {
@@ -194,6 +196,14 @@ nav ul {
     color: var(--secondary-color);
 }
 
+.image {
+    position: relative;
+}
+
+.image .btn-two {
+    position: absolute;
+}
+
 .image-size {
     width: 708px;
     height: 982px;
@@ -204,4 +214,50 @@ nav ul {
     height: 200px;
     background: #FF900E;
     border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+    border: 0;
+    position: absolute;
+    top: 850px;
+    right: 460px;
+}
+
+.ten-years {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.some-text {
+    margin: 130px 0 0 240px;
+}
+
+.some-text-header {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--dark-black);
+    margin-bottom: 24px;
+}
+
+.some-text-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+
+/*-----------------------------
+        Achievement styles
+ ----------------------------*/
+
+.achievement {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 290px;
+}
+
+.achievement-list {
+    padding: 55px 99px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    align-items: center;
 }
