@@ -41,6 +41,15 @@ nav ul {
     color: var(--dark-black);
     font-weight: 500;
     font-size: 18px;
+    transition: ease-in 0.3s;
+
+}
+nav li{
+    transition: ease-in 0.3s; 
+}
+nav li:hover{
+    background-color: red;
+    border-radius: 5px;
 }
 
 /*--------------------------
@@ -72,6 +81,10 @@ nav ul {
     font-size: 20px;
     color: #FFFFFF;
     border: 0;
+    transition:ease-out 0.3s;
+}
+.btn:hover{
+    background-color: red;
 }
 
 .photo img {
@@ -139,9 +152,8 @@ nav ul {
 }
 
 .text {
-    margin: 50px 146px 0 0;
+    margin: 40px 146px 0 0;
     position: relative;
-    top: 60px;
 }
 
 .extra-feature-text {
@@ -167,7 +179,7 @@ nav ul {
     font-size: 16px;
     color: var(--secondary-color);
     margin-top: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .extra-feature-list {
@@ -212,9 +224,9 @@ nav ul {
 .btn-two {
     width: 342px;
     height: 200px;
-    background: #FF900E;
+    background: #c6e8eb;
     border-radius: 8px;
-    color: #FFFFFF;
+    color: #FF900E;
     font-weight: 500;
     font-size: 25px;
     border: 0;
@@ -253,7 +265,9 @@ nav ul {
     display: flex;
     justify-content: space-between;
     margin: 100px 290px;
+    
 }
+
 
 .achievement-list {
     padding: 55px 80px;
@@ -261,6 +275,10 @@ nav ul {
     border-radius: 8px;
     align-items: center;
     text-align: center;
+    transition: ease-in ;
+}
+.achievement-list:hover{
+    border: 3px solid red;
 }
 
 .number {
